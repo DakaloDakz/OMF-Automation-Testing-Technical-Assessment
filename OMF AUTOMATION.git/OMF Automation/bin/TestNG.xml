@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomeChoiceTest " parallel="false" verbose="2">
+<parameter name="appURL" value="https://www.oldmutualfinance.co.za/"/>
+<parameter name="browserType" value="chrome"/>
+  <test name="chromeTest1">
+    <classes>
+      
+      <class name="OMF.TEST.HomePage_Test"/>
+      <class name="OMF.TEST.PersonLoans_Test"/>
+     
+    
+      
+    </classes>
+    </test>
+</suite>
+
